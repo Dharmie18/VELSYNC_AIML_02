@@ -13,7 +13,6 @@ print("Loading Horses vs Humans dataset...")
     with_info=True,
 )
 
-# Normalize and resize
 IMG_SIZE = 128
 
 def preprocess(image, label):
